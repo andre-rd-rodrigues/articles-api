@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
   res.send(articles);
 });
 
-router.get('/:id', (req, res) => {
+router.get('/article/:id', (req, res) => {
   const slug = req.params.id;
 
   const articleFound = articles.filter((article) => article.slug === slug);

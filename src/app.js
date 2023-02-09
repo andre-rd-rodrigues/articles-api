@@ -4,7 +4,6 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const helmet = require('helmet');
 
-const indexRouter = require('./routes/index');
 const articlesRouter = require('./routes/articles');
 
 const errorHandler = require('./middleware/errorHandler');
@@ -28,8 +27,7 @@ app.use(function (req, res, next) {
   next();
 });
 
-app.use('/', indexRouter);
-app.use('/articles', articlesRouter);
+app.use('/', articlesRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

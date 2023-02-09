@@ -18,12 +18,14 @@ const articles = [
     description:
       'Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home. In this blog post, we&apos;ll give you five ways to transform your home into a smart home, including using smart thermostats, smart lighting, smart appliances, smart security systems, and smart home hubs. Automating your home can make your life easier, save you energy and money, and give you peace of mind. Learn how to get started with home automation today.',
     category: CATEGORY.tech,
-    date: '11/25/2022',
+    createdAt: '11/25/2022',
     isTopArticle: false,
-    image_src:
-      'https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
-    content:
-      '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    coverPhoto: {
+      url: 'https://images.unsplash.com/photo-1558002038-1055907df827?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80',
+    },
+    content: {
+      html: '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    },
     writer: 'Andre Rodrigues',
   },
 
@@ -35,13 +37,16 @@ const articles = [
     description:
       'Discover effective strategies for navigating conflicts within a programming team while maintaining mental well-being. Learn the impact of conflicts on mental health and how to overcome it through open communication, active listening, compromise, team building and seeking help when needed.',
     category: CATEGORY.career,
-    date: '2022-11-20',
+    createdAt: '2022-11-20',
     isTopArticle: false,
-    image_src:
-      'https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+    coverPhoto: {
+      url: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+    },
+
     writer: 'Andre Rodrigues',
-    content:
-      '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    content: {
+      html: '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    },
   },
 
   // Finance
@@ -51,13 +56,15 @@ const articles = [
     description:
       'Learn about the different ways to earn passive income as a beginner. From renting out property, to building an online course, to investing in stocks, find the best passive income ideas that align with your skills and resources. Discover how to get started and start earning passive income today!',
     category: CATEGORY.finance,
-    date: '2023-01-23',
+    createdAt: '2023-01-23',
     isTopArticle: true,
-    image_src:
-      'https://images.unsplash.com/photo-1606191104230-eb69171eaf15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80',
+    coverPhoto: {
+      url: 'https://images.unsplash.com/photo-1606191104230-eb69171eaf15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80',
+    },
+    content: {
+      html: '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    },
     writer: 'Andre Rodrigues',
-    content:
-      '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
   },
 
   // Well-being
@@ -68,13 +75,16 @@ const articles = [
     description:
       'Discover the negative impact of prolonged screen time on mental health and learn effective strategies to mitigate it, including setting daily limits, taking regular breaks, using blue light filters, practicing good sleep hygiene and staying active.',
     category: CATEGORY.wellbeing,
-    date: '2022-12-14',
+    createdAt: '2022-12-14',
     isTopArticle: true,
-    image_src:
-      'https://images.unsplash.com/photo-1555963153-11ff60182d08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80',
+    coverPhoto: {
+      url: 'https://images.unsplash.com/photo-1555963153-11ff60182d08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80',
+    },
+
     writer: 'Andre Rodrigues',
-    content:
-      '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    content: {
+      html: '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    },
   },
 
   // Gaming
@@ -84,12 +94,15 @@ const articles = [
     description:
       'Learn how to become a pro in Counter-Strike: Global Offensive (CS:GO) with our insider tips and strategies. From aiming and map knowledge to communication and focus, we cover all the essentials you need to dominate the competition. Improve your gameplay and take your CS:GO skills to the next level with our comprehensive guide. Don&apos;t miss out on the secrets to mastering the game.',
     category: CATEGORY.games,
-    date: '2022-12-01',
+    createdAt: '2022-12-01',
     isTopArticle: false,
-    content:
-      '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
-    image_src:
-      'https://images.unsplash.com/photo-1637594439872-44d1b1fe0a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+    content: {
+      html: '<div><h2>Take control of your home</h2><p>Are you tired of constantly forgetting to turn off the lights or adjust the thermostat when you leave the house? It might be time to consider automating your home.<br /> Home automation refers to the use of technology to control and manage the various systems and devices in your home, such as lighting, heating and cooling, and appliances. Not only can home automation make your life easier and more convenient, it can also help you save energy and money. Here are 5 ways to automate your home!</p</div>',
+    },
+    coverPhoto: {
+      url: 'https://images.unsplash.com/photo-1637594439872-44d1b1fe0a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80',
+    },
+
     writer: 'Andre Rodrigues',
   },
 ];
